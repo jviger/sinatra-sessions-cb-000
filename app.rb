@@ -27,6 +27,7 @@ class App < Sinatra::Base
       "Session value has not been set!"
     end
     session['foo'] == 'hello'
+    
   end
 
   get '/fetch' do
